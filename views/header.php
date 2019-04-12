@@ -1,5 +1,5 @@
 <!-- mylo carson 2019-->
-<?php include 'includes/config.php';
+<?php include '../app/includes/config.php';
 //print_r($_SESSION);
 extract($_SESSION);?>
 <!DOCTYPE html>

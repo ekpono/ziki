@@ -1,4 +1,4 @@
-<?php include 'includes/config.php';
+<?php include '../app/config.php';
 //print_r($_SESSION);
 extract($_SESSION);?>
 <!DOCTYPE html>

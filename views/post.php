@@ -1,9 +1,9 @@
 <?php
 define ("dir", "https://ziki.hng.tech/" ); 
 //session_start();
-include 'includes/config.php';
-require_once 'config.php';
-require_once 'functions/Post.php';
+include '../app/includes/config.php';
+require_once '../app/config.php';
+require_once '../app/Post.php';
 extract($_SESSION);
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -59,7 +59,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
     }*/
     //header("Location: https://ziki.hng.tech/timeline.php");
-    header('Location: http://localhost:8000/timeline.php');
+    header('Location: http://localhost:8000/views/timeline.php');
 }
 else {
     $data = file_get_contents("posts.json");

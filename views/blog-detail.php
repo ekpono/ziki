@@ -143,8 +143,5 @@
 
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-    <script src="./assets/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="./assets/js/main.js"></script>
-    <script id="dsq-count-scr" src="//ziki-1.disqus.com/count.js" async></script>
 </body>
 </html>
