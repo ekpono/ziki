@@ -8,7 +8,8 @@ session_start();
 //set timezone
 date_default_timezone_set('Europe/London');
 
-$users ='../Authentication\auth\settings.json';
+include('functions.php');
+$users = '../../Authentication/auth/settings.json';
 //echo "function is ok";
 //load classes as needed
 function __autoload($class) {

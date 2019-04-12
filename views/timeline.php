@@ -1,6 +1,6 @@
 <?php
 $title = "Timeline";
-include 'header.php';
+include '../views/header.php';
  ?>
 <?php
             if(isset($_SESSION['accesstoken'])){

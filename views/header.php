@@ -1,6 +1,6 @@
 <!-- mylo carson 2019-->
-<?php include '../app/includes/config.php';
-//print_r($_SESSION);
+<?php include '../app/config.php';
+print_r($_SESSION);
 extract($_SESSION);?>
 <!DOCTYPE html>
 <html lang="en">

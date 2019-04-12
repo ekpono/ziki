@@ -1,13 +1,11 @@
 <?php
 $title ="Welcome";
-include 'header.php';
+include './views/header.php';
  ?>
-
-
     <div class="container-fluid">
         <div class="row justify-content-between m-4">
 	   <a href="/views/timeline.php">
-            <img class="img-fluid logo" src="../assets/img/zikilogo.png">
+            <img class="img-fluid logo" src="assets/img/zikilogo.png">
 	</a>
             <button type="button" class="btn btn-primary align-self-end px-5" data-toggle="modal" data-target="#exampleModalCenter">
                 Login
@@ -20,13 +18,13 @@ include 'header.php';
                     <div class="col-md-12 col-12">
                         <div class="row">
                             <div class="col-md-1">
-                                <img class="blog-item-author-avatar" src="../assets/img/avatar-2.jpeg">
+                                <img class="blog-item-author-avatar" src="assets/img/avatar-2.jpeg">
                             </div>
                             <div class="col-md-11 col-12">
                                 <div class="row blog-main-item">
                                     <div class="col-md-3 col-12">
                                         <div class="row">
-                                            <img src="../assets/img/wall.jpg" class="img-fluid post-img" alt="Profile Image">
+                                            <img src="assets/img/wall.jpg" class="img-fluid post-img" alt="Profile Image">
                                         </div>
                                     </div>
                                     <div class="col-md-9 col-12">
@@ -85,13 +83,13 @@ include 'header.php';
                     <div class="col-md-12 col-12">
                         <div class="row">
                             <div class="col-md-1">
-                                <img class="blog-item-author-avatar" src="../assets/img/avatar-2.jpeg">
+                                <img class="blog-item-author-avatar" src="assets/img/avatar-2.jpeg">
                             </div>
                             <div class="col-md-11 col-12">
                                 <div class="row blog-main-item">
                                     <div class="col-md-3 col-12">
                                         <div class="row">
-                                            <img src="../assets/img/wall.jpg" class="img-fluid post-img" alt="Profile Image">
+                                            <img src="assets/img/wall.jpg" class="img-fluid post-img" alt="Profile Image">
                                         </div>
                                     </div>
                                     <div class="col-md-9 col-12">
@@ -150,13 +148,13 @@ include 'header.php';
                     <div class="col-md-12 col-12">
                         <div class="row">
                             <div class="col-md-1">
-                                <img class="blog-item-author-avatar" src="../assets/img/avatar-2.jpeg">
+                                <img class="blog-item-author-avatar" src="assets/img/avatar-2.jpeg">
                             </div>
                             <div class="col-md-11 col-12">
                                 <div class="row blog-main-item">
                                     <div class="col-md-3 col-12">
                                         <div class="row">
-                                            <img src="../assets/img/wall.jpg" class="img-fluid post-img" alt="Profile Image">
+                                            <img src="assets/img/wall.jpg" class="img-fluid post-img" alt="Profile Image">
                                         </div>
                                     </div>
                                     <div class="col-md-9 col-12">
@@ -215,13 +213,13 @@ include 'header.php';
                     <div class="col-md-12 col-12">
                         <div class="row">
                             <div class="col-md-1">
-                                <img class="blog-item-author-avatar" src="../assets/img/avatar-2.jpeg">
+                                <img class="blog-item-author-avatar" src="assets/img/avatar-2.jpeg">
                             </div>
                             <div class="col-md-11 col-12">
                                 <div class="row blog-main-item">
                                     <div class="col-md-3 col-12">
                                         <div class="row">
-                                            <img src="../assets/img/wall.jpg" class="img-fluid post-img" alt="Profile Image">
+                                            <img src="assets/img/wall.jpg" class="img-fluid post-img" alt="Profile Image">
                                         </div>
                                     </div>
                                     <div class="col-md-9 col-12">
@@ -281,13 +279,13 @@ include 'header.php';
                     <div class="col-md-12 col-12">
                         <div class="row">
                             <div class="col-md-1">
-                                <img class="blog-item-author-avatar" src="../assets/img/avatar-2.jpeg">
+                                <img class="blog-item-author-avatar" src="assets/img/avatar-2.jpeg">
                             </div>
                             <div class="col-md-11 col-12">
                                 <div class="row blog-main-item">
                                     <div class="col-md-3 col-12">
                                         <div class="row">
-                                            <img src="../assets/img/wall.jpg" class="img-fluid post-img" alt="Profile Image">
+                                            <img src="assets/img/wall.jpg" class="img-fluid post-img" alt="Profile Image">
                                         </div>
                                     </div>
                                     <div class="col-md-9 col-12">
@@ -352,7 +350,7 @@ include 'header.php';
         toggleThemeBtn.addEventListener('click', e => document.querySelector('body').classList.toggle('dark'));
     </script>
 
-    <?php include 'auth.php';?>
+    <?php include './views/auth.php';?>
     
 </body>
 
