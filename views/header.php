@@ -1,5 +1,5 @@
 <!-- mylo carson 2019-->
-<?php include '../app/includes/config.php';
+<?php include "../app/includes/config.php"; ?>
 print_r($_SESSION);
 extract($_SESSION);?>
 <!DOCTYPE html>
@@ -17,7 +17,7 @@ extract($_SESSION);?>
 
     <!-- Markdown cdn link -->
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/medium-editor@latest/dist/css/medium-editor.min.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/medium-editor@latest/dist/css/medium-editor.min.css" type="text/css" media="screen" charset="utf-8">
 
     <style type="text/css">
         /** mylo carson 2019 */
